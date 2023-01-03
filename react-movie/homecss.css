@@ -26,6 +26,10 @@ ul{
     text-align: right;
 }
 
+li{
+    font-family: 'Raleway', sans-serif;
+}
+
 ul li{
     display: inline-block;
     list-style: none;
