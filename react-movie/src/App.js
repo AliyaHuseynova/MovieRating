@@ -54,6 +54,7 @@ const API_URL = 'http://localhost:3000/movies';
         <th>Overview</th>
         <th>Year</th>
         <th>Genre</th>
+        <th>Runtime</th>
         
        
       </tr>
@@ -65,6 +66,7 @@ const API_URL = 'http://localhost:3000/movies';
           <td>{item.Overview}</td>
           <td>{item.Released_Year}</td>
           <td>{item.Genre}</td>
+          <td>{item.Runtime}</td>
           
        
         </tr>
