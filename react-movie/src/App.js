@@ -34,11 +34,14 @@ import React, { useEffect, useState} from 'react';
 function App() {
   const [Movies, fetchMovies] = useState([])
   useEffect(() => {
-    fetch('http://localhost:3000/movies')
+
+const API_URL = 'http://localhost:3000/movies';
+
+    fetch(API_URL)
     .then((resultat) => resultat.json())
     .then((resultat) => {
       fetchMovies(resultat)
-      console.log(resultat);
+      console.log(resultat.movies);
     })
   }, []);
   return (
@@ -49,6 +52,7 @@ function App() {
         <th>Year</th>
         <th>Genre</th>
         <th>Rating</th>
+       
       </tr>
       {Movies.map ((item, i) => {
         return <tr>
@@ -56,6 +60,7 @@ function App() {
           <td>{item.Released_Year}</td>
           <td>{item.Genre}</td>
           <td>{item.IMDB_Rating}</td>
+       
         </tr>
       })}
     </table>
