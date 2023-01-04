@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-// import './App.css';
+ import './App.css';
 // import React from 'react';
 
 // const App = () => {
@@ -48,18 +48,24 @@ const API_URL = 'http://localhost:3000/movies';
   <div className='divclass'>
     <table className='table'>
       <tr>
-        <th>Name</th>
+        <th>Poster</th>
+        <th>Title</th>
+        <th>Rating</th>
+        <th>Overview</th>
         <th>Year</th>
         <th>Genre</th>
-        <th>Rating</th>
+        
        
       </tr>
       {Movies.map ((item, i) => {
         return <tr>
+          <td>{item.Poster_Link}</td>
           <td>{item.Series_Title}</td>
+          <td>{item.IMDB_Rating}</td>
+          <td>{item.Overview}</td>
           <td>{item.Released_Year}</td>
           <td>{item.Genre}</td>
-          <td>{item.IMDB_Rating}</td>
+          
        
         </tr>
       })}
