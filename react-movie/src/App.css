@@ -1,9 +1,0 @@
-body {
-	background: #131212;
-	color: #ffffff;
-}
-
-.image-container {
-	position: relative;
-	transition: transform 0.2s;
-}
