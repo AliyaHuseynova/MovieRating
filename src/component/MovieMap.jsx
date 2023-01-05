@@ -6,7 +6,7 @@ export default function MovieMap(movie){
             <NavLink to={`/movies`}></NavLink>
             <div>
                 <img src={movie.link} alt="movies"/>
-                <h1>TITLE: {movie.title}</h1>
+                <h1>TITLE:  {movie.title}</h1>
                 <p>{movie.overview}</p>
                 <h2>{movie.dir}</h2>
                 <p>{movie.rating}</p>
