@@ -22,7 +22,7 @@ export default function Home(){
                         </form>
                     </div>
                     <div className="right-column">
-                        <img src="https://store.hp.com/app/assets/images/uploads/prod/best-laptops-for-working-from-home-hero1570812274803636.jpg" />
+                        <img src="https://store.hp.com/app/assets/images/uploads/prod/best-laptops-for-working-from-home-hero1570812274803636.jpg" alt='images' />
                     </div>
                 </div>
             </div>

@@ -8,9 +8,6 @@ export default function Movie() {
 .then((response) => setMovie(response))
 
 
-<<<<<<< HEAD
-
-=======
 return(
     <div>
         {movie.map((movie) =>(
@@ -18,5 +15,4 @@ return(
         ))}
     </div>
 );
->>>>>>> 5442e6ca8248541babc75a33c2de7f3e86f25fa8
 }   
