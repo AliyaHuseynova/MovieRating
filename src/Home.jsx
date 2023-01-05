@@ -1,14 +1,9 @@
-import
 
 export default function Home(){
     return(
         <div>
             <div className="body">
                 <div className="hero"> </div>
-                    <div class="topnav">
-                    <a href="home">Home</a>
-                    <NavLink></NavLink>
-                </div>
 
                 <div className="banner">
                     <div className="left-column">

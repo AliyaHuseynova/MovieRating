@@ -13,7 +13,7 @@ export default function Movie() {
 .then(response => response.json())
 .then(response => console.log(JSON.stringify(response)))
 
-return <div className="Movie">Hello World</div>
+return <div className="Movie">Movie</div>
 
 
 }   
