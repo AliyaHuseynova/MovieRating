@@ -15,9 +15,9 @@ export default function Home(){
                         </ol>
                         <h3>To visit our personal Github web sites, click buttons below:</h3>
                         <form>
-                            <button class="button" formaction="https://mirvaricomps.github.io/website.github.io/"></button>
-                            <button class="button" formaction="https://aliyahuseynova.github.io/"></button>
-                            <button class="button" formaction="https://aghabayim.github.io"></button>
+                            <button class="button" formaction="https://mirvaricomps.github.io/website.github.io/">Mirvari</button>
+                            <button class="button" formaction="https://aliyahuseynova.github.io/">Aliya</button>
+                            <button class="button" formaction="https://aghabayim.github.io">Aghabayim</button>
                         </form>
                     </div>
                 </div>
