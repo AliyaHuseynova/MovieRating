@@ -21,6 +21,9 @@ export default function Home(){
                             <button class="button" formaction="https://aghabayim.github.io">Aghabayim</button>
                         </form>
                     </div>
+                    <div className="right-column">
+                        <img src="https://store.hp.com/app/assets/images/uploads/prod/best-laptops-for-working-from-home-hero1570812274803636.jpg" />
+                    </div>
                 </div>
             </div>
         </div>
