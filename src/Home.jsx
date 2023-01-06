@@ -23,6 +23,8 @@ export default function Home(){
                             <button class="button" formaction="https://aliyahuseynova.github.io/">Aliya</button>
                             <button class="button" formaction="https://aghabayim.github.io">Aghabayim</button>
                         </form>
+
+                        <a href="https://www.youtube.com/watch?v=LkTctfA2MeE">Link to Youtube Video</a>
                     </div>
                     <div className="right-column">
                         <img className ="homeimg" src="https://store.hp.com/app/assets/images/uploads/prod/best-laptops-for-working-from-home-hero1570812274803636.jpg" alt='images' />
