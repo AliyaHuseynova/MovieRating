@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/MovieRating/static/css/main.5ddc2a3f.css",
-    "main.js": "/MovieRating/static/js/main.b20054f0.js",
+    "main.js": "/MovieRating/static/js/main.bd07577d.js",
     "index.html": "/MovieRating/index.html",
     "main.5ddc2a3f.css.map": "/MovieRating/static/css/main.5ddc2a3f.css.map",
-    "main.b20054f0.js.map": "/MovieRating/static/js/main.b20054f0.js.map"
+    "main.bd07577d.js.map": "/MovieRating/static/js/main.bd07577d.js.map"
   },
   "entrypoints": [
     "static/css/main.5ddc2a3f.css",
-    "static/js/main.b20054f0.js"
+    "static/js/main.bd07577d.js"
   ]
 }
