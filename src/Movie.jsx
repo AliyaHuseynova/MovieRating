@@ -1,5 +1,6 @@
 import { useState } from "react";
-import  MovieMap  from "./component/MovieMap"
+import  MovieMap  from "./component/MovieMap";
+
 export default function Movie() {
     const [movie,  setMovie] = useState([]);
 
@@ -11,8 +12,18 @@ export default function Movie() {
 return(
     <div>
         {movie.map((movie) =>(
-            <MovieMap id={movie.id} dir={movie.Director} link={movie.Poster_Link} title={movie.Series_Title} year={movie.Released_Year} runtime={movie.Runtim} genre={movie.Genre} rating={movie.IMDB_Rating} overview={movie.Overview}  />
+            <MovieMap 
+            id={movie.id} 
+            dir={movie.Director} 
+            link={movie.Poster_Link} 
+            title={movie.Series_Title} 
+            year={movie.Released_Year} 
+            runtime={movie.Runtime} 
+            genre={movie.Genre} 
+            rating={movie.IMDB_Rating} 
+            overview={movie.Overview}  />
         ))}
     </div>
 );
 }   
+

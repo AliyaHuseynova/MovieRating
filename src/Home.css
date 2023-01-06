@@ -5,8 +5,39 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-img{
-    width: 700px;
+.hero{
+    /* width: 80%; */
+     /* margin: auto; */
+     float:left;
+}
+
+.ContactUs{
+    background-image: url("https://images.pexels.com/photos/844297/pexels-photo-844297.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-844297.jpg&fm=jpg");
+    text-align: center;
+    opacity: 0.9;
+}
+
+input {
+    margin: 20px;
+    padding:20px;
+    border: 5px solid rgb(37, 49, 67);
+    background-color: #b9d6e1;
+    width: 50%;
+}
+
+
+input:hover {
+    opacity: 0.9;
+    border: rgb(255, 3, 3);
+    width: 70%;
+    padding: 30px;
+    background-color: wheat;
+}
+
+
+
+.homeimg{
+    width: 100%;
     size: 800px;
     border-radius: 20%;
 }

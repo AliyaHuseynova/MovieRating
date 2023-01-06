@@ -1,18 +1,23 @@
 import { NavLink } from "react-router-dom";
+import './MovieMap.css';
 
 export default function MovieMap(movie){
     return(
         <div>
             <NavLink to={`/movies`}></NavLink>
-            <div>
+            <div className="moviepage">
+                <div className="right-column">
                 <img src={movie.link} alt="movies"/>
-                <h1>TITLE:  {movie.title}</h1>
-                <p>{movie.overview}</p>
-                <h2>{movie.dir}</h2>
-                <p>{movie.rating}</p>
-                <p>{movie.genre}</p>
-                <p>{movie.runtime}</p>
-                <p>{movie.year}</p>
+                <h1>Title: {movie.title}</h1></div>
+
+                <div className="left-column">
+                <p>Overview: {movie.overview}</p>
+                <p>Director: {movie.dir}</p>
+                <p>Rating: {movie.rating}</p>
+                <p>Genre: {movie.genre}</p>
+                <p>Runtime: {movie.runtime}</p>
+                <p>Year: {movie.year}</p>
+                </div>
             </div>
         </div>
     );
